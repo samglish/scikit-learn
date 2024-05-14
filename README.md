@@ -31,7 +31,7 @@ plt.title(digits.target[0])
 plt.axis('off')
 plt.show()
 ```
-<img src="output1.png" width="70%">
+<img src="output1.png" width="50%">
 
 We will train a simple neural network to recognize numbers in these images. This network will take 1D arrays of 8x8=64 values as input. So we need to convert our 2D images into 1D arrays
 ```python
@@ -114,6 +114,6 @@ plt.title(f'cible: {y_error[i]}, prediction: {y_pred_error[i]}')
 plt.axis('off')
 plt.show()
 ```
-<img src="output.png" width="75%">
+<img src="output.png" width="50%">
 As we can see, it is difficult to classify these images, even for a human
 For better performance, higher resolution images and a more complex neural network, such as a convolutional network, should be used.
