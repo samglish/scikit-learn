@@ -78,3 +78,13 @@ mlp.fit(x_train, y_train)
 ```python
 mlp.predict(x_test[:10])
 ```
+```terminal
+array([1, 4, 0, 5, 3, 6, 9, 6, 1, 7])
+```
+```python
+y_test[:10]
+```
+```terminal
+array([1, 4, 0, 5, 3, 6, 9, 6, 1, 7])
+```
+### For the first 10 test images, the estimates are excellent!
