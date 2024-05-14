@@ -3,11 +3,11 @@ Handwritten digit recognition with scikit-learn
 <hr>
 
 ### Installing scikit-learn
-* Use pip virtualenv
-`pip install -U scikit-learn`
+* Use pip virtualenv 
+<p>`pip install -U scikit-learn`</p>
 * Use conda
-`conda create -n sklearn-env -c conda-forge scikit-learn`
-`conda activate sklearn-env`
+<p>`conda create -n sklearn-env -c conda-forge scikit-learn`</p>
+<p>`conda activate sklearn-env`</p>
 
 see the documentation for more information <a href="https://scikit-learn.org/stable/install.html">https://scikit-learn.org/stable/install.html</a>
 <hr>
