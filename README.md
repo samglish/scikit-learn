@@ -103,3 +103,4 @@ np.sum(error) / len(y_test)
 ```terminal
 0.09535759096612297
 ```
+### We can finally select the bad predictions to display them
