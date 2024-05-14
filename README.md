@@ -5,7 +5,7 @@ Handwritten digit recognition with scikit-learn
 ### Installing scikit-learn
 * Use pip virtualenv </br>
 `pip install -U scikit-learn`
-* Use conda
+* Use conda </br>
 `conda create -n sklearn-env -c conda-forge scikit-learn`</br>
 `conda activate sklearn-env`</br>
 
