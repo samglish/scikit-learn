@@ -1,14 +1,19 @@
-# scikit-learn
+# `scikit-learn`
 Handwritten digit recognition with scikit-learn
 <hr>
 
-### Installing scikit-learn
-* Use pip virtualenv </br>
-`pip install -U scikit-learn`
+### `Installing scikit-learn`
+* Use pip virtualenv
+```terminal
+pip install -U scikit-learn
+```
 * Use conda </br>
-`conda create -n sklearn-env -c conda-forge scikit-learn`</br>
-`conda activate sklearn-env`</br>
-
+```terminal
+conda create -n sklearn-env -c conda-forge scikit-learn
+```
+```terminal
+conda activate sklearn-env
+```
 see the documentation for more information <a href="https://scikit-learn.org/stable/install.html">https://scikit-learn.org/stable/install.html</a>
 <hr>
 
