@@ -100,3 +100,6 @@ error = (y_pred != y_test)
 import numpy as np
 np.sum(error) / len(y_test)
 ```
+```terminal
+0.09535759096612297
+```
