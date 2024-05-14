@@ -92,3 +92,11 @@ array([1, 4, 0, 5, 3, 6, 9, 6, 1, 7])
 y_pred = mlp.predict(x_test)
 ```
 ### Then search for the images for which the network made a mistake
+```python
+error = (y_pred != y_test)
+```
+### Here is the calculation of the error rate
+```python
+import numpy as np
+np.sum(error) / len(y_test)
+```
