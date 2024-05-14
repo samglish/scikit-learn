@@ -1,6 +1,18 @@
 # scikit-learn
 Handwritten digit recognition with scikit-learn
-* We trained a simple neural network to recognize the numbers in these images. This network will take 1D arrays of 8x8=64 values as input. We then converted these 2D images into 1D arrays
+<hr>
+
+### Installing scikit-learn
+* Use pip virtualenv
+`pip install -U scikit-learn`
+* Use conda
+`conda create -n sklearn-env -c conda-forge scikit-learn`
+`conda activate sklearn-env`
+
+see the documentation for more information <a href="https://scikit-learn.org/stable/install.html">https://scikit-learn.org/stable/install.html</a>
+<hr>
+
+### We trained a simple neural network to recognize the numbers in these images. This network will take 1D arrays of 8x8=64 values as input. We then converted these 2D images into 1D arrays 
 
 <hr>
 
