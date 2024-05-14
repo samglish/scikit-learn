@@ -88,3 +88,7 @@ y_test[:10]
 array([1, 4, 0, 5, 3, 6, 9, 6, 1, 7])
 ```
 ### For the first 10 test images, the estimates are excellent!
+```python
+y_pred = mlp.predict(x_test)
+```
+### Then search for the images for which the network made a mistake
