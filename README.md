@@ -74,3 +74,7 @@ mlp.fit(x_train, y_train)
 ```output
 /home/samglish/.local/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
 ```
+### And There you go ! we can now look at what the network gives for the following images, which were not seen by the network during training
+```python
+mlp.predict(x_test[:10])
+```
